@@ -1,0 +1,42 @@
+.scroll
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+        width: 250px;
+        height: 90px;
+            margin: 0 auto;
+            padding: 0;
+                position: relative;
+                top: 800px;
+                    z-index: 1;
+}
+
+.scroll__text
+{
+    text-align: center;
+    font-size: 18px;
+    color: #D2D7D3;
+        padding-bottom: 25px;
+}
+
+.scroll__img
+{
+    display: block;
+        background-image: url('../../images/scroll-light.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+            margin: 0 auto;
+                width: 40px;
+                height: 40px;
+}
+
+.scroll__img:hover
+{
+    background-image: url('../../images/scroll-dark.png');
+        transition: 0.7s;
+}
+
+.scroll__link
+{
+    text-decoration: none;
+}

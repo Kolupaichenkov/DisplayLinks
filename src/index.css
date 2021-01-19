@@ -1,0 +1,35 @@
+@import url('components/css/header.css');
+@import url('components/css/nav.css');
+@import url('components/css/scroll.css');
+
+    @import url('components/css/content_nav.css');
+    @import url('components/css/content.css');
+    @import url('components/css/content_scroll.css');
+
+        @import url('components/css/media.css');
+
+@font-face 
+{
+	font-family: 'OpenSans-Regular'; 
+	src: url('fonts/OpenSans-Regular.ttf'); 
+}
+@font-face 
+{
+    font-family: 'OpenSans-Light';
+    src: url('fonts/OpenSans-Light.ttf')
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+        font-family: OpenSans-Regular;
+        font-size:16px;
+        color:#303030;
+}
+
+.wrapper 
+{
+    margin: 0;
+    padding: 0;
+}

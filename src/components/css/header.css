@@ -1,0 +1,13 @@
+.header 
+{
+    display: block;
+        background-image: url(../../images/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+            width: 100%;
+            max-width: 1920px;
+            min-width: 320px;
+            height: 1077px;
+                margin: 0;
+                padding: 0;
+}

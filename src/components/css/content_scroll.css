@@ -1,0 +1,45 @@
+.wrapper_content_scroll
+{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 320px;
+}
+
+.content_scroll
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+        width: 250px;
+        height: 90px;
+            margin: 75px auto 50px auto;
+}
+
+.content_scroll__text
+{
+    text-align: center;
+    font-size: 18px;
+    color:  #BBBBBB;
+        padding-bottom: 25px;
+}
+
+.content_scroll__img
+{
+    display: block;
+        background-image: url('../../images/scroll-dark.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+            margin: 0 auto;
+                width: 40px;
+                height: 40px;
+}
+
+.content_scroll__img:hover
+{
+    background-image: url('../../images/scroll-light.png');
+        transition: 0.7s;
+}
+
+.content_scroll__link
+{
+    text-decoration: none;
+}

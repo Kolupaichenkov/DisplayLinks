@@ -1,0 +1,48 @@
+.main
+{
+    width: 100%;
+    max-width: 1920px;
+        line-height: 50px;
+}
+
+.main__wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        margin:75px auto 75px auto;
+            width: 80%;
+            max-width: 1530px;
+            height: 700px;
+}
+
+.main__content 
+{
+    width: 100%;
+    max-width: 720px;
+    height: 700px;
+        margin-left: 50px;
+}
+
+.main__img
+{
+    width: 100%;
+    max-width: 771px;
+}
+
+.main__h1
+{
+    font-size: 60px;
+    color: #202020;
+}
+
+.main__p
+{
+    font-size: 24px;
+    color: #919191;
+}
+
+.main__h2
+{
+    font-size: 36px;
+    color: #202020;
+}
